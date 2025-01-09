@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Zahran</title>
+
+    <!--Internal CSS-->
+    <style>
+        header {
+            background-color: blue;
+        }
+
+        .main-header {
+            background-color: green;
+        }
+    </style>
+
+    <!--Exeternal CSS-->
+    <link rel="stylesheet" href="CSS\styles.css">
+
 </head>
 <body>
-    
+    <header>
+        <h1>Title</h1>
+    </header>
+
+    <main>
+        <header class="main-header">
+            <h2>Title</h2>
+        </header>
+
+        <header class="main-header" id="unique-main-header">
+            <h2>Title</h2>
+        </header>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing...</p>
+    </main>
+
+    <!--Inline CSS-->
+    <footer style="background-color: red;">
+        <span>Footer</span>
+    </footer>
 </body>
 </html>
